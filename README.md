@@ -4,8 +4,10 @@ Library/class written for the Arduino IDE. Based on the [Smoothing example](http
 
 To use:
 
-`#include "Smoother.h"
-Smoother foo = Smoother(resolution);`
+```C++
+#include "Smoother.h"
+Smoother foo = Smoother(resolution);
+```
 
 In loop, smooth data by using the average() method:
 
