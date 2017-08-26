@@ -38,7 +38,7 @@ int Smoother::average(int data) {
   }
 
   averageVal = total / numReadings;      // calculate the average
-  delay(200);                            // delay in between reads for stability
+  //delay(200);                            // delay in between reads for stability
   
   return averageVal;    
 }
